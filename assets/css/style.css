@@ -46,3 +46,94 @@ h1 {
     left:0;
     right:0;
 }
+
+.day.selected {
+    border-color: blueviolet;
+}
+
+.dot {
+    position: absolute;
+    left: 45%;
+    bottom: 20px;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: blueviolet;
+}
+
+.currentDay {
+    background-color:pink;
+}
+
+.sunday {
+    color:red;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: 700px;
+    margin-bottom: 1rem;
+}
+h4 {
+    margin-bottom: 1.5rem;
+}
+
+#addMeeting div {
+    display:inline-block;
+    vertical-align: bottom;
+    margin-right: 3.5em;
+}
+
+form {
+    display: inline;
+}
+
+input {
+    width: 130px;
+    min-height: 36px;
+    background-color: #0c0b1d;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: 700;
+}
+
+input:focus {
+    background-color: darkslateblue;
+}
+input:focus::placeholder {
+    color:blueviolet;
+}
+
+#newMeetingDay {
+    display:inline-block;
+    min-height: 40px;
+}
+
+#newMeetingDay.hasDay {
+    font-size:28px;
+    font-weight: 700;
+    background-color:#0c0b1d ;
+    border-radius: 5px;
+    padding: 0 5px;
+}
+
+#newMeetingName {
+    width: 200px;
+}
+
+#newMeetingTime::-webkit-calendar-
+
+form button {
+    cursor: pointer;
+    background-color: blueviolet;
+    color:#ebebeb;
+    border:none;
+    border-radius: 5px;
+    width:130px;
+    min-height: 36px;
+    font-weight: 700;
+    padding:10px;
+
+}
+
